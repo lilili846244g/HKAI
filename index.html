@@ -7,7 +7,13 @@
     <title>香港人工智能應用協會</title>
     <meta content="" name="description" />
     <meta content="" name="keywords" />
-
+    <!-- bootsrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
@@ -179,17 +185,19 @@
           <!-- Slide 1 -->
 
           <div class="container container-hero-text">
-            <h2 class="animate__animated animate__fadeInDown">
-              香港人工智能應用協會
-            </h2>
-            <p class="animate__animated animate__fadeInUp">
-              推動AI發展，引领数字创新
-            </p>
-            <a
-              href="#about"
-              class="btn-get-started animate__animated animate__fadeInUp scrollto"
-              >Read More</a
-            >
+            <div class="px-2">
+              <h2 class="animate__animated animate__fadeInDown">
+                香港人工智能應用協會
+              </h2>
+              <p class="animate__animated animate__fadeInUp">
+                推動AI發展，引领数字创新
+              </p>
+              <a
+                href="#about"
+                class="btn-get-started animate__animated animate__fadeInUp scrollto"
+                >Read More</a
+              >
+            </div>
           </div>
         </div>
 
@@ -226,49 +234,34 @@
       <section id="about" class="about">
         <div class="container" data-aos="fade-up">
           <div class="section-title">
-            <h2>About</h2>
-            <p>About Us</p>
+            <h2>關於</h2>
+            <p>關於我們</p>
           </div>
 
           <div class="row content">
-            <div class="col-lg-6">
+            <div class="col-lg-6 pt-4 pt-lg-0">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                非牟利組織”香港人工智能應用協會”成立於2023年，旨在促進人工智能技術的發展和應用，推動科技創新，並為社會帶來更多福祉。
               </p>
-              <ul>
-                <li>
-                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> Duis aute irure dolor in
-                  reprehenderit in voluptate velit
-                </li>
-                <li>
-                  <i class="ri-check-double-line"></i> Ullamco laboris nisi ut
-                  aliquip ex ea commodo consequat
-                </li>
-              </ul>
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0">
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
+                協會由一群對人工智能技術應用充滿熱情的專業人士企業家成立，他們擁有豐富的行業經驗和專業知識，致力於將人工智能技術應用到各個領域，為社會創造更多價值。
               </p>
-              <a href="#" class="btn-learn-more">Learn More</a>
             </div>
+            <a href="#" class="btn-learn-more">Learn More</a>
           </div>
         </div>
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Counts Section ======= -->
-      <section id="counts" class="counts">
+      <!-- ======= programs Section ======= -->
+      <section id="programs" class="counts">
         <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <!--        <h2>活動</h2> -->
+            <p>活動和計劃</p>
+          </div>
           <div class="row no-gutters">
             <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
               <div class="count-box">
@@ -279,9 +272,7 @@
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span>
-                <p>
-                  <strong>Happy Clients</strong> consequuntur quae qui deca rode
-                </p>
+                <p>協會舉辦的研討會、講座和培訓課程的詳細資訊</p>
                 <a href="#">Find out more &raquo;</a>
               </div>
             </div>
@@ -295,10 +286,7 @@
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span>
-                <p>
-                  <strong>Projects</strong> adipisci atque cum quia aut numquam
-                  delectus
-                </p>
+                <p>重要活動的照片和回顧</p>
                 <a href="#">Find out more &raquo;</a>
               </div>
             </div>
@@ -312,10 +300,7 @@
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span>
-                <p>
-                  <strong>Hours Of Support</strong> aut commodi quaerat. Aliquam
-                  ratione
-                </p>
+                <p>協會的研究項目和合作計劃的介紹</p>
                 <a href="#">Find out more &raquo;</a>
               </div>
             </div>
@@ -329,10 +314,7 @@
                   data-purecounter-duration="1"
                   class="purecounter"
                 ></span>
-                <p>
-                  <strong>Hard Workers</strong> rerum asperiores dolor molestiae
-                  doloribu
-                </p>
+                <p>協會成員的參與和貢獻</p>
                 <a href="#">Find out more &raquo;</a>
               </div>
             </div>
@@ -364,92 +346,31 @@
             >
               <div class="content">
                 <h3>
-                  Eum ipsam laborum deleniti
-                  <strong>velit pariatur architecto</strong>
+                  協會
+                  <strong>宗旨</strong>
                 </h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Duis aute irure dolor in reprehenderit
-                </p>
               </div>
 
-              <div class="accordion-list">
-                <ul>
-                  <li>
-                    <a
-                      data-bs-toggle="collapse"
-                      class="collapse"
-                      data-bs-target="#accordion-list-1"
-                      ><span>01</span> Non consectetur a erat nam at lectus urna
-                      duis? <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-1"
-                      class="collapse show"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        Feugiat pretium nibh ipsum consequat. Tempus iaculis
-                        urna id volutpat lacus laoreet non curabitur gravida.
-                        Venenatis lectus magna fringilla urna porttitor rhoncus
-                        dolor purus non.
-                      </p>
-                    </div>
-                  </li>
+              <ul>
+                <li>
+                  - 提高香港AI水平 ， 幫助行內有志人士就業及各大企業發掘人才。
+                </li>
 
-                  <li>
-                    <a
-                      data-bs-toggle="collapse"
-                      data-bs-target="#accordion-list-2"
-                      class="collapsed"
-                      ><span>02</span> Feugiat scelerisque varius morbi enim
-                      nunc? <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-2"
-                      class="collapse"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        Dolor sit amet consectetur adipiscing elit pellentesque
-                        habitant morbi. Id interdum velit laoreet id donec
-                        ultrices. Fringilla phasellus faucibus scelerisque
-                        eleifend donec pretium. Est pellentesque elit
-                        ullamcorper dignissim. Mauris ultrices eros in cursus
-                        turpis massa tincidunt dui.
-                      </p>
-                    </div>
-                  </li>
+                <li>
+                  -
+                  推動人工智能在香港的發展和應用標準，特別是在商業、教育和公共服務等領域。
+                </li>
 
-                  <li>
-                    <a
-                      data-bs-toggle="collapse"
-                      data-bs-target="#accordion-list-3"
-                      class="collapsed"
-                      ><span>03</span> Dolor sit amet consectetur adipiscing
-                      elit? <i class="bx bx-chevron-down icon-show"></i
-                      ><i class="bx bx-chevron-up icon-close"></i
-                    ></a>
-                    <div
-                      id="accordion-list-3"
-                      class="collapse"
-                      data-bs-parent=".accordion-list"
-                    >
-                      <p>
-                        Eleifend mi in nulla posuere sollicitudin aliquam
-                        ultrices sagittis orci. Faucibus pulvinar elementum
-                        integer enim. Sem nulla pharetra diam sit amet nisl
-                        suscipit. Rutrum tellus pellentesque eu tincidunt.
-                        Lectus urna duis convallis convallis tellus. Urna
-                        molestie at elementum eu facilisis sed odio morbi quis
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+                <li>
+                  -
+                  積極參與和推動相關的研究、教育和政策制定，以使香港在人工智能領域保持國際領先地位。
+                </li>
+                <li>
+                  -
+                  推廣人工智能的道德、法律和社會影響的理解和討論，並倡導負責任的AI使用。
+                </li>
+                <li>- 與其他區域和國際組織合作，共同研究和分享知識及實踐。</li>
+              </ul>
             </div>
           </div>
         </div>
@@ -1485,7 +1406,12 @@
       class="back-to-top d-flex align-items-center justify-content-center"
       ><i class="bi bi-arrow-up-short"></i
     ></a>
-
+    <!-- bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
