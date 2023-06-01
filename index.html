@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
@@ -8,194 +9,165 @@
     <meta content="" name="description" />
     <meta content="" name="keywords" />
     <!-- bootsrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
     <!-- Favicons -->
     <link href="assets/img/favicon.png" rel="icon" />
     <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
     <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
     <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
     <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
     <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
     <style>
-      main {
-        margin-bottom: 100px;
-      }
-
-      .new-hero-inner {
-        background-image: url(./assets/img/img-t/c-b\ 1.png);
-        background-size: cover;
-        animation: bg-animation 50s cubic-bezier(0.14, 0.49, 1, 0.65) infinite;
-      }
-
-      @keyframes bg-animation {
-        0% {
-          background-position: 82% 50%;
-          transform: scale(1);
+        main {
+            margin-bottom: 100px;
         }
-        50% {
-          background-position: 50% 50%;
-          transform: scale(1.1);
+        
+        .new-hero-inner {
+            background-image: url(./assets/img/img-t/c-b\ 1.png);
+            background-size: cover;
+            animation: bg-animation 50s cubic-bezier(0.14, 0.49, 1, 0.65) infinite;
         }
-        100% {
-          background-position: 82% 50%;
-          transform: scale(1);
+        
+        @keyframes bg-animation {
+            0% {
+                background-position: 82% 50%;
+                transform: scale(1);
+            }
+            50% {
+                background-position: 50% 50%;
+                transform: scale(1.1);
+            }
+            100% {
+                background-position: 82% 50%;
+                transform: scale(1);
+            }
         }
-      }
-
-      .carousel-control-prev,
-      .carousel-control-next {
-        display: none;
-      }
-
-      .clip-path {
-        clip-path: polygon(0 0, 81% 0, 100% 100%, 0 100%);
-        background-color: #fff;
-        position: absolute;
-        top: -70px;
-        left: 0;
-        width: 50%;
-        height: 80px;
-        z-index: 100;
-      }
-
-      footer {
-        position: relative;
-        margin-top: 50px;
-      }
-
-      .footer-clip-path {
-        clip-path: polygon(0 0, 81% 0, 100% 100%, 0 100%);
-        background-color: #071527;
-        position: absolute;
-        top: -70px;
-        left: 0;
-        width: 50%;
-        height: 80px;
-        z-index: 100;
-      }
-
-      @media screen and (max-width: 900px) {
-        .footer-clip-path,
+        
+        .carousel-control-prev,
+        .carousel-control-next {
+            display: none;
+        }
+        
         .clip-path {
-          width: 50%;
-          height: 60px;
+            clip-path: polygon(0 0, 81% 0, 100% 100%, 0 100%);
+            background-color: #fff;
+            position: absolute;
+            top: -70px;
+            left: 0;
+            width: 50%;
+            height: 80px;
+            z-index: 100;
         }
-        .clip-path {
-          top: -50px;
+        
+        footer {
+            position: relative;
+            margin-top: 50px;
         }
+        
         .footer-clip-path {
-          top: -50px;
+            clip-path: polygon(0 0, 81% 0, 100% 100%, 0 100%);
+            background-color: #071527;
+            position: absolute;
+            top: -70px;
+            left: 0;
+            width: 50%;
+            height: 80px;
+            z-index: 100;
         }
-      }
-
-      @media screen and (max-width: 500px) {
-        .footer-clip-path,
-        .clip-path {
-          width: 50%;
-          height: 30px;
+        
+        @media screen and (max-width: 900px) {
+            .footer-clip-path,
+            .clip-path {
+                width: 50%;
+                height: 60px;
+            }
+            .clip-path {
+                top: -50px;
+            }
+            .footer-clip-path {
+                top: -50px;
+            }
         }
-        .clip-path {
-          top: -30px;
+        
+        @media screen and (max-width: 500px) {
+            .footer-clip-path,
+            .clip-path {
+                width: 50%;
+                height: 30px;
+            }
+            .clip-path {
+                top: -30px;
+            }
+            .footer-clip-path {
+                top: -30px;
+                border-bottom: 1px solid #071527;
+            }
         }
-        .footer-clip-path {
-          top: -30px;
-          border-bottom: 1px solid #071527;
-        }
-      }
     </style>
-  </head>
+</head>
 
-  <body>
+<body>
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
-        <a href="index.html">
-          <img src="./assets/img/main/logo-w.svg" class="logo" alt=""
-        /></a>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+        <div class="container d-flex align-items-center justify-content-between">
+            <a href="index.html">
+                <img src="./assets/img/main/logo-w.svg" class="logo" alt="" /></a>
+            <!-- Uncomment below if you prefer to use an image logo -->
+            <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
-            <li><a class="nav-link scrollto" href="#about">關於我們</a></li>
-            <li>
-              <a class="nav-link scrollto" href="#programs">活動和計劃</a>
-            </li>
-            <li>
-              <a class="nav-link scrollto" href="#knowledge">資源和知識庫</a>
-            </li>
-            <li><a class="nav-link scrollto" href="#standard">標準制定</a></li>
-            <li><a class="nav-link scrollto" href="#team">加入我們</a></li>
-            <li><a class="nav-link scrollto" href="#partner">協作夥伴</a></li>
-            <li><a class="nav-link scrollto" href="#new">新聞和事件</a></li>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto active" href="#hero">首頁</a></li>
+                    <li><a class="nav-link scrollto" href="#about">關於我們</a></li>
+                    <li>
+                        <a class="nav-link scrollto" href="#programs">活動和計劃</a>
+                    </li>
+                    <li>
+                        <a class="nav-link scrollto" href="#knowledge">資源和知識庫</a>
+                    </li>
+                    <li><a class="nav-link scrollto" href="#standard">標準制定</a></li>
+                    <li><a class="nav-link scrollto" href="#team">加入我們</a></li>
+                    <li><a class="nav-link scrollto" href="#partner">協作夥伴</a></li>
+                    <li><a class="nav-link scrollto" href="#new">新聞和事件</a></li>
 
-            <li><a class="nav-link scrollto" href="#contact">聯絡我們</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav>
-        <!-- .navbar -->
-      </div>
+                    <li><a class="nav-link scrollto" href="#contact">聯絡我們</a></li>
+                </ul>
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav>
+            <!-- .navbar -->
+        </div>
     </header>
     <!-- End Header -->
 
     <!-- ======= Hero Section ======= -->
     <section id="hero">
-      <div
-        id="heroCarousel"
-        data-bs-interval="5000"
-        class="carousel slide carousel-fade"
-        data-bs-ride="carousel"
-      >
-        <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+        <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+            <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
 
-        <div
-          class="carousel-inner new-hero-inner d-flex justify-content-center align-items-center"
-          role="listbox"
-        >
-          <!-- Slide 1 -->
+            <div class="carousel-inner new-hero-inner d-flex justify-content-center align-items-center" role="listbox">
+                <!-- Slide 1 -->
 
-          <div class="container container-hero-text">
-            <div class="px-2">
-              <h2 class="animate__animated animate__fadeInDown">
-                香港人工智能應用協會
-              </h2>
-              <p class="animate__animated animate__fadeInUp">
-                推動AI發展，引领数字创新
-              </p>
-              <a
-                href="#about"
-                class="btn-get-started animate__animated animate__fadeInUp scrollto"
-                >Read More</a
+                <div class="container container-hero-text">
+                    <div class="px-2">
+                        <h2 class="animate__animated animate__fadeInDown">
+                            香港人工智能應用協會
+                        </h2>
+                        <p class="animate__animated animate__fadeInUp">
+                            推動AI發展，引领数字创新
+                        </p>
+                        <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">查看詳情</a
               >
             </div>
           </div>
@@ -213,367 +185,274 @@
           ></span>
         </a>
 
-        <a
-          class="carousel-control-next"
-          href="#heroCarousel"
-          role="button"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon bi bi-chevron-right"
-            aria-hidden="true"
-          ></span>
-        </a>
-      </div>
+                        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+                        </a>
+                    </div>
     </section>
     <!-- End Hero -->
 
     <main id="main" style="position: relative">
-      <div class="clip-path"></div>
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>關於</h2>
-            <p>關於我們</p>
-          </div>
+        <div class="clip-path"></div>
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>關於</h2>
+                    <p>關於我們</p>
+                </div>
 
-          <div class="row content">
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                非牟利組織”香港人工智能應用協會”成立於2023年，旨在促進人工智能技術的發展和應用，推動科技創新，並為社會帶來更多福祉。
-              </p>
+                <div class="row content">
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            非牟利組織”香港人工智能應用協會”成立於2023年，旨在促進人工智能技術的發展和應用，推動科技創新，並為社會帶來更多福祉。
+                        </p>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            協會由一群對人工智能技術應用充滿熱情的專業人士企業家成立，他們擁有豐富的行業經驗和專業知識，致力於將人工智能技術應用到各個領域，為社會創造更多價值。
+                        </p>
+                    </div>
+
+                </div>
             </div>
-            <div class="col-lg-6 pt-4 pt-lg-0">
-              <p>
-                協會由一群對人工智能技術應用充滿熱情的專業人士企業家成立，他們擁有豐富的行業經驗和專業知識，致力於將人工智能技術應用到各個領域，為社會創造更多價值。
-              </p>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= programs Section ======= -->
+        <section id="programs" class="counts">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <!--        <h2>活動</h2> -->
+                    <p>活動和計劃</p>
+                </div>
+                <div class="row no-gutters">
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                        <div class="count-box">
+                            <i class="bi bi-emoji-smile"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>協會舉辦的研討會、講座和培訓課程的詳細資訊</p>
+                            <a href="#">查看詳情 &raquo;</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                        <div class="count-box">
+                            <i class="bi bi-journal-richtext"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>重要活動的照片和回顧</p>
+                            <a href="#">查看詳情 &raquo;</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                        <div class="count-box">
+                            <i class="bi bi-headset"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>協會的研究項目和合作計劃的介紹</p>
+                            <a href="#">查看詳情 &raquo;</a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
+                        <div class="count-box">
+                            <i class="bi bi-people"></i>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+                            <p>協會成員的參與和貢獻</p>
+                            <a href="#">查看詳情 &raquo;</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <a href="#" class="btn-learn-more">Learn More</a>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
+        </section>
+        <!-- End Counts Section -->
 
-      <!-- ======= programs Section ======= -->
-      <section id="programs" class="counts">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <!--        <h2>活動</h2> -->
-            <p>活動和計劃</p>
-          </div>
-          <div class="row no-gutters">
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-emoji-smile"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="232"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>協會舉辦的研討會、講座和培訓課程的詳細資訊</p>
-                <a href="#">Find out more &raquo;</a>
-              </div>
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us section-bg">
+            <div class="container-fluid" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-5 align-items-stretch video-box" style="background-image: url('assets/img/why-us.jpg')" data-aos="zoom-in" data-aos-delay="100">
+                        <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                    </div>
+
+                    <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
+                        <div class="content">
+                            <h3>
+                                協會
+                                <strong>宗旨</strong>
+                            </h3>
+                        </div>
+
+                        <ul>
+                            <li>
+                                - 提高香港AI水平 ， 幫助行內有志人士就業及各大企業發掘人才。
+                            </li>
+
+                            <li>
+                                - 推動人工智能在香港的發展和應用標準，特別是在商業、教育和公共服務等領域。
+                            </li>
+
+                            <li>
+                                - 積極參與和推動相關的研究、教育和政策制定，以使香港在人工智能領域保持國際領先地位。
+                            </li>
+                            <li>
+                                - 推廣人工智能的道德、法律和社會影響的理解和討論，並倡導負責任的AI使用。
+                            </li>
+                            <li>- 與其他區域和國際組織合作，共同研究和分享知識及實踐。</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </section>
+        <!-- End Why Us Section -->
 
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-journal-richtext"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="521"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>重要活動的照片和回顧</p>
-                <a href="#">Find out more &raquo;</a>
-              </div>
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>會員</h2>
+                    <p>會員福利</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><svg width="28" height="22" viewBox="0 0 28 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M10.2667 16.3333L14 13.5333L17.6667 16.3333L16.2667 11.8L20 8.86665H15.4667L14 4.33331L12.5334 8.86665H8.00002L11.6667 11.8L10.2667 16.3333ZM3.33336 21.6666C2.60002 21.6666 1.97202 21.4053 1.44936 20.8826C0.926689 20.36 0.6658 19.7324 0.666689 19V14.5C0.666689 14.2555 0.744467 14.0444 0.900023 13.8666C1.05558 13.6889 1.25558 13.5778 1.50002 13.5333C2.03336 13.3555 2.47247 13.0333 2.81736 12.5666C3.16224 12.1 3.33424 11.5778 3.33336 11C3.33336 10.4222 3.16091 9.89998 2.81602 9.43331C2.47113 8.96665 2.03247 8.64443 1.50002 8.46665C1.25558 8.4222 1.05558 8.31109 0.900023 8.13332C0.744467 7.95554 0.666689 7.74443 0.666689 7.49998V2.99998C0.666689 2.26665 0.928023 1.63865 1.45069 1.11598C1.97336 0.593315 2.60091 0.332426 3.33336 0.333315H24.6667C25.4 0.333315 26.028 0.594648 26.5507 1.11731C27.0734 1.63998 27.3342 2.26754 27.3334 2.99998V7.49998C27.3334 7.74443 27.2556 7.95554 27.1 8.13332C26.9445 8.31109 26.7445 8.4222 26.5 8.46665C25.9667 8.64443 25.5276 8.96665 25.1827 9.43331C24.8378 9.89998 24.6658 10.4222 24.6667 11C24.6667 11.5778 24.8391 12.1 25.184 12.5666C25.5289 13.0333 25.9676 13.3555 26.5 13.5333C26.7445 13.5778 26.9445 13.6889 27.1 13.8666C27.2556 14.0444 27.3334 14.2555 27.3334 14.5V19C27.3334 19.7333 27.072 20.3613 26.5494 20.884C26.0267 21.4066 25.3991 21.6675 24.6667 21.6666H3.33336ZM3.33336 19H24.6667V15.6C23.8445 15.1111 23.1942 14.4613 22.716 13.6506C22.2378 12.84 21.9991 11.9564 22 11C22 10.0444 22.2387 9.16087 22.716 8.34931C23.1934 7.53776 23.8436 6.88798 24.6667 6.39998V2.99998H3.33336V6.39998C4.15558 6.88887 4.8058 7.53909 5.28402 8.35065C5.76224 9.1622 6.00091 10.0453 6.00002 11C6.00002 11.9555 5.76136 12.8391 5.28402 13.6506C4.80669 14.4622 4.15647 15.112 3.33336 15.6V19Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <h4><a href="">豐富活動</a></h4>
+                            <p>參加協會主辦的各類活動，包括講座、研討會、展覽等；</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><svg width="26" height="31" viewBox="0 0 26 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12.6667 30.4533V25.6533C5.98669 25.3066 0.666687 19.76 0.666687 13C0.666687 6.01331 6.34669 0.333313 13.3334 0.333313C20.32 0.333313 26 6.01331 26 13C26 19.6 21.4134 26.24 14.5734 29.5333L12.6667 30.4533ZM13.3334 2.99998C7.81335 2.99998 3.33335 7.47998 3.33335 13C3.33335 18.52 7.81335 23 13.3334 23H15.3334V26.0666C20.1867 23 23.3334 17.96 23.3334 13C23.3334 7.47998 18.8534 2.99998 13.3334 2.99998ZM12 18.3333H14.6667V21H12V18.3333ZM14.6667 16.3333H12C12 12 16 12.3333 16 9.66665C16 8.19998 14.8 6.99998 13.3334 6.99998C11.8667 6.99998 10.6667 8.19998 10.6667 9.66665H8.00002C8.00002 6.71998 10.3867 4.33331 13.3334 4.33331C16.28 4.33331 18.6667 6.71998 18.6667 9.66665C18.6667 13 14.6667 13.3333 14.6667 16.3333Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <h4><a href="">技術咨詢</a></h4>
+                            <p>獲得專業的人工智能技術咨詢和培訓服務；</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M19.8133 16.6667C19.92 15.7867 20 14.9067 20 14C20 13.0934 19.92 12.2134 19.8133 11.3334H24.32C24.5333 12.1867 24.6666 13.08 24.6666 14C24.6666 14.92 24.5333 15.8134 24.32 16.6667M17.4533 24.08C18.2533 22.6 18.8666 21 19.2933 19.3334H23.2266C21.9349 21.5577 19.8854 23.2427 17.4533 24.08ZM17.12 16.6667H10.88C10.7466 15.7867 10.6666 14.9067 10.6666 14C10.6666 13.0934 10.7466 12.2 10.88 11.3334H17.12C17.24 12.2 17.3333 13.0934 17.3333 14C17.3333 14.9067 17.24 15.7867 17.12 16.6667ZM14 24.6134C12.8933 23.0134 12 21.24 11.4533 19.3334H16.5466C16 21.24 15.1066 23.0134 14 24.6134ZM8.66663 8.66669H4.77329C6.05177 6.43631 8.09969 4.74867 10.5333 3.92002C9.73329 5.40002 9.13329 7.00002 8.66663 8.66669ZM4.77329 19.3334H8.66663C9.13329 21 9.73329 22.6 10.5333 24.08C8.10479 23.2422 6.05975 21.557 4.77329 19.3334ZM3.67996 16.6667C3.46663 15.8134 3.33329 14.92 3.33329 14C3.33329 13.08 3.46663 12.1867 3.67996 11.3334H8.18663C8.07996 12.2134 7.99996 13.0934 7.99996 14C7.99996 14.9067 8.07996 15.7867 8.18663 16.6667M14 3.37335C15.1066 4.97335 16 6.76002 16.5466 8.66669H11.4533C12 6.76002 12.8933 4.97335 14 3.37335ZM23.2266 8.66669H19.2933C18.876 7.0153 18.2581 5.42121 17.4533 3.92002C19.9066 4.76002 21.9466 6.45335 23.2266 8.66669ZM14 0.666687C6.62663 0.666687 0.666626 6.66669 0.666626 14C0.666626 17.5362 2.07138 20.9276 4.57187 23.4281C5.80998 24.6662 7.27984 25.6484 8.89751 26.3184C10.5152 26.9885 12.249 27.3334 14 27.3334C17.5362 27.3334 20.9276 25.9286 23.428 23.4281C25.9285 20.9276 27.3333 17.5362 27.3333 14C27.3333 12.2491 26.9884 10.5152 26.3184 8.89757C25.6483 7.2799 24.6662 5.81004 23.428 4.57193C22.1899 3.33382 20.7201 2.35169 19.1024 1.68163C17.4847 1.01156 15.7509 0.666687 14 0.666687Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <h4><a href="">國際交流</a></h4>
+                            <p>
+                                提供最新的人工智能技術和應用信息，並提供招聘平臺，協助會員或企業找到工作機會或合適人才。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><svg width="12" height="28" viewBox="0 0 12 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M8.66669 7.33338H3.33335C1.86669 7.33338 0.666687 8.53338 0.666687 10V18H3.33335V27.3334H8.66669V18H11.3334V10C11.3334 8.53338 10.1334 7.33338 8.66669 7.33338ZM6.00002 0.334717L8.99735 3.33338L6.00002 6.33072L3.00002 3.33338L6.00002 0.334717Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <h4><a href="">人才供需</a></h4>
+                            <p>
+                                協助國內公司在香港設立公司及申請政府資助，並幫助他們走向國際舞臺。
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><svg width="28" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M24.6667 5.33333H19.3334V2.66667L16.6667 0H11.3334L8.66669 2.66667V5.33333H3.33335C1.86669 5.33333 0.666687 6.53333 0.666687 8V14.6667C0.666687 15.6667 1.20002 16.5067 2.00002 16.9733V21.3333C2.00002 22.8133 3.18669 24 4.66669 24H23.3334C24.8134 24 26 22.8133 26 21.3333V16.96C26.7867 16.4933 27.3334 15.64 27.3334 14.6667V8C27.3334 6.53333 26.1334 5.33333 24.6667 5.33333ZM11.3334 2.66667H16.6667V5.33333H11.3334V2.66667ZM3.33335 8H24.6667V14.6667H18V10.6667H10V14.6667H3.33335V8ZM15.3334 16H12.6667V13.3333H15.3334V16ZM23.3334 21.3333H4.66669V17.3333H10V18.6667H18V17.3333H23.3334V21.3333Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <h4><a href="">商務協作</a></h4>
+                            <p>
+                                提供完整的培訓計畫和豐富的學習資源，以提升會員的人工智能知識和技能
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><svg width="30" height="24" viewBox="0 0 30 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M15 0L0.333374 8L5.66671 10.9067V18.9067L15 24L24.3334 18.9067V10.9067L27 9.45333V18.6667H29.6667V8L15 0ZM24.0934 8L15 12.96L5.90671 8L15 3.04L24.0934 8ZM21.6667 17.3333L15 20.96L8.33337 17.3333V12.36L15 16L21.6667 12.36V17.3333Z" fill="white"/>
+                              </svg>
+                            </div>
+                            <h4><a href="">專業培訓</a></h4>
+                            <p>
+                                Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+        <!-- End Services Section -->
 
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-headset"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="1463"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>協會的研究項目和合作計劃的介紹</p>
-                <a href="#">Find out more &raquo;</a>
-              </div>
+        <!-- ======= Cta Section ======= -->
+        <section id="cta" class="cta">
+            <div class="container" data-aos="zoom-in">
+                <div class="text-center">
+                    <h3>願景</h3>
+                    <p>
+                        我們的願景是使香港成為一個全球人工智能的創新中心，推動人工智能在各領域的應用，並確保其發展是負責任、公正和以人為本的。我們期望在人工智能的推動下，香港能夠在技術、社會和經濟方面取得可持續發展，成為一個更具包容性、創新性和繁榮性的社會。
+                    </p>
+                    <a class="cta-btn" href="#">查看詳情</a>
+                </div>
             </div>
+        </section>
+        <!-- End Cta Section -->
 
-            <div class="col-lg-3 col-md-6 d-md-flex align-items-md-stretch">
-              <div class="count-box">
-                <i class="bi bi-people"></i>
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="15"
-                  data-purecounter-duration="1"
-                  class="purecounter"
-                ></span>
-                <p>協會成員的參與和貢獻</p>
-                <a href="#">Find out more &raquo;</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Counts Section -->
+        <!-- ======= Portfolio Section ======= -->
+        <section id="partner" class="portfolio">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>協作</h2>
+                    <p>協作夥伴</p>
+                </div>
 
-      <!-- ======= Why Us Section ======= -->
-      <section id="why-us" class="why-us section-bg">
-        <div class="container-fluid" data-aos="fade-up">
-          <div class="row">
-            <div
-              class="col-lg-5 align-items-stretch video-box"
-              style="background-image: url('assets/img/why-us.jpg')"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <a
-                href="https://www.youtube.com/watch?v=jDDaplaOz7Q"
-                class="venobox play-btn mb-4"
-                data-vbtype="video"
-                data-autoplay="true"
-              ></a>
-            </div>
-
-            <div
-              class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch"
-            >
-              <div class="content">
-                <h3>
-                  協會
-                  <strong>宗旨</strong>
-                </h3>
-              </div>
-
-              <ul>
-                <li>
-                  - 提高香港AI水平 ， 幫助行內有志人士就業及各大企業發掘人才。
-                </li>
-
-                <li>
-                  -
-                  推動人工智能在香港的發展和應用標準，特別是在商業、教育和公共服務等領域。
-                </li>
-
-                <li>
-                  -
-                  積極參與和推動相關的研究、教育和政策制定，以使香港在人工智能領域保持國際領先地位。
-                </li>
-                <li>
-                  -
-                  推廣人工智能的道德、法律和社會影響的理解和討論，並倡導負責任的AI使用。
-                </li>
-                <li>- 與其他區域和國際組織合作，共同研究和分享知識及實踐。</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Why Us Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>會員</h2>
-            <p>會員福利</p>
-          </div>
-
-          <div class="row">
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                <h4><a href="">Lorem Ipsum</a></h4>
-                <p>參加協會主辦的各類活動，包括講座、研討會、展覽等；</p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-file"></i></div>
-                <h4><a href="">Sed ut perspiciatis</a></h4>
-                <p>獲得專業的人工智能技術咨詢和培訓服務；</p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-tachometer"></i></div>
-                <h4><a href="">Magni Dolores</a></h4>
-                <p>
-                  提供最新的人工智能技術和應用信息，並提供招聘平臺，協助會員或企業找到工作機會或合適人才。
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="100"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-world"></i></div>
-                <h4><a href="">Nemo Enim</a></h4>
-                <p>
-                  協助國內公司在香港設立公司及申請政府資助，並幫助他們走向國際舞臺。
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="200"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-slideshow"></i></div>
-                <h4><a href="">Dele cardo</a></h4>
-                <p>
-                  提供完整的培訓計畫和豐富的學習資源，以提升會員的人工智能知識和技能
-                </p>
-              </div>
-            </div>
-
-            <div
-              class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
-              data-aos="zoom-in"
-              data-aos-delay="300"
-            >
-              <div class="icon-box">
-                <div class="icon"><i class="bx bx-arch"></i></div>
-                <h4><a href="">Divera don</a></h4>
-                <p>
-                  Modi nostrum vel laborum. Porro fugit error sit minus sapiente
-                  sit aspernatur
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section -->
-
-      <!-- ======= Cta Section ======= -->
-      <section id="cta" class="cta">
-        <div class="container" data-aos="zoom-in">
-          <div class="text-center">
-            <h3>願景</h3>
-            <p>
-              我們的願景是使香港成為一個全球人工智能的創新中心，推動人工智能在各領域的應用，並確保其發展是負責任、公正和以人為本的。我們期望在人工智能的推動下，香港能夠在技術、社會和經濟方面取得可持續發展，成為一個更具包容性、創新性和繁榮性的社會。
-            </p>
-            <a class="cta-btn" href="#">Call To Action</a>
-          </div>
-        </div>
-      </section>
-      <!-- End Cta Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="partner" class="portfolio">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>協作</h2>
-            <p>協作夥伴</p>
-          </div>
-
-          <div
-            class="row portfolio-container"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="assets/img/portfolio/portfolio-1.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <a
-                  href="assets/img/portfolio/portfolio-1.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 1"
-                  ><i class="bx bx-plus"></i
+                <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                            <h4>App 1</h4>
+                            <p>App</p>
+                            <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i
                 ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i
                 ></a>
-              </div>
-            </div>
+                        </div>
+                    </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img
-                src="assets/img/portfolio/portfolio-2.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <a
-                  href="assets/img/portfolio/portfolio-2.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="Web 3"
-                  ><i class="bx bx-plus"></i
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                            <h4>Web 3</h4>
+                            <p>Web</p>
+                            <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i
                 ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i
                 ></a>
-              </div>
-            </div>
+                        </div>
+                    </div>
 
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img
-                src="assets/img/portfolio/portfolio-3.jpg"
-                class="img-fluid"
-                alt=""
-              />
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <a
-                  href="assets/img/portfolio/portfolio-3.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox preview-link"
-                  title="App 2"
-                  ><i class="bx bx-plus"></i
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="" />
+                        <div class="portfolio-info">
+                            <h4>App 2</h4>
+                            <p>App</p>
+                            <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i
                 ></a>
-                <a
-                  href="portfolio-details.html"
-                  class="details-link"
-                  title="More Details"
-                  ><i class="bx bx-link"></i
+                            <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i
                 ></a>
-              </div>
-            </div>
+                        </div>
+                    </div>
 
-            <!--  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                    <!--  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
               <img
                 src="assets/img/portfolio/portfolio-4.jpg"
                 class="img-fluid"
@@ -722,31 +601,27 @@
                 ></a>
               </div>
             </div> -->
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
+                </div>
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
 
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>創會</h2>
-            <p>創會成員</p>
-          </div>
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>創會</h2>
+                    <p>創會成員</p>
+                </div>
 
-          <div class="row">
-            <div class="col-xl-3 col-lg-4 col-md-6">
-              <div class="member" data-aos="zoom-in" data-aos-delay="100">
-                <img
-                  src="assets/img/team/team-1.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>創會會長</h4>
-                    <span>
+                <div class="row">
+                    <div class="col-xl-3 col-lg-4 col-md-6">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="100">
+                            <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" />
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>創會會長</h4>
+                                    <span>
                       范景誠先生 <br />
                       中國管理科學研究院 客座教授 <br />Aivatar Lab CTO</span
                     >
@@ -786,71 +661,67 @@
                   <div class="member-info-content">
                     <h4>William Anderson</h4>
                     <span>CTO</span>
-                  </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
+                        <div class="member" data-aos="zoom-in" data-aos-delay="400">
+                            <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" />
+                            <div class="member-info">
+                                <div class="member-info-content">
+                                    <h4>Amanda Jepson</h4>
+                                    <span>Accountant</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
+        </section>
+        <!-- End Team Section -->
 
-            <div class="col-xl-3 col-lg-4 col-md-6" data-wow-delay="0.3s">
-              <div class="member" data-aos="zoom-in" data-aos-delay="400">
-                <img
-                  src="assets/img/team/team-4.jpg"
-                  class="img-fluid"
-                  alt=""
-                />
-                <div class="member-info">
-                  <div class="member-info-content">
-                    <h4>Amanda Jepson</h4>
-                    <span>Accountant</span>
-                  </div>
+        <!-- ======= Pricing Section ======= -->
+        <section id="pricing" class="pricing">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>會員</h2>
+                    <p>會員申請</p>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Team Section -->
 
-      <!-- ======= Pricing Section ======= -->
-      <section id="pricing" class="pricing">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>會員</h2>
-            <p>會員申請</p>
-          </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                            <h3 class="mb-3">個人會員申請條件</h3>
 
-          <div class="row align-items-center">
-            <div class="col-lg-6">
-              <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                <h3 class="mb-3">個人會員申請條件</h3>
+                            <ul>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">年齡在18歲或以上</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">
+                                        對人工智能技術有興趣，並希望了解更多關於人工智能技術的知識
+                                    </p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">
+                                        願意遵守協會的章程和規定。如您符合以上條件，我們將盡快審核您的申請，並通知您是否被錄取為協會會員。
+                                    </p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">如通過協會考試評核會自動成為協會專業會員</p>
+                                </li>
+                            </ul>
+                            <a href="#" class="get-started-btn">Get Started</a>
+                        </div>
+                    </div>
 
-                <ul>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">年齡在18歲或以上</p>
-                  </li>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">
-                      對人工智能技術有興趣，並希望了解更多關於人工智能技術的知識
-                    </p>
-                  </li>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">
-                      願意遵守協會的章程和規定。如您符合以上條件，我們將盡快審核您的申請，並通知您是否被錄取為協會會員。
-                    </p>
-                  </li>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">如通過協會考試評核會自動成為協會專業會員</p>
-                  </li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-              </div>
-            </div>
-
-            <!--          <div class="col-lg-4">
+                    <!--          <div class="col-lg-4">
               <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
                 <h3>Business</h3>
                 <h4>$29<span>per month</span></h4>
@@ -873,180 +744,139 @@
                         </div>
                     </div> -->
 
-            <div class="col-lg-6">
-              <div class="box" data-aos="zoom-in" data-aos-delay="100">
-                <h3 class="mb-5">機構會員申請條件</h3>
+                    <div class="col-lg-6">
+                        <div class="box" data-aos="zoom-in" data-aos-delay="100">
+                            <h3 class="mb-5">機構會員申請條件</h3>
 
-                <ul>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">為註冊公司、機構或組織</p>
-                  </li>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">
-                      對人工智能技術有需求，並希望將人工智能技術應用到自己的業務中
-                    </p>
-                  </li>
-                  <li class="d-flex">
-                    <i class="bx bx-check"></i>
-                    <p class="px-1">
-                      願意遵守協會的章程和規定。如貴機構符合以上條件，請填寫會員申請表格，並繳交會費。我們將盡快審核您的申請，並通知您是否被錄取為協會會員。
-                    </p>
-                  </li>
-                </ul>
-                <a href="#" class="get-started-btn">Get Started</a>
-              </div>
+                            <ul>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">為註冊公司、機構或組織</p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">
+                                        對人工智能技術有需求，並希望將人工智能技術應用到自己的業務中
+                                    </p>
+                                </li>
+                                <li class="d-flex">
+                                    <i class="bx bx-check"></i>
+                                    <p class="px-1">
+                                        願意遵守協會的章程和規定。如貴機構符合以上條件，請填寫會員申請表格，並繳交會費。我們將盡快審核您的申請，並通知您是否被錄取為協會會員。
+                                    </p>
+                                </li>
+                            </ul>
+                            <a href="#" class="get-started-btn">Get Started</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Pricing Section -->
+        </section>
+        <!-- End Pricing Section -->
 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact" class="contact section-bg">
-        <div class="container" data-aos="fade-up">
-          <div class="section-title">
-            <h2>聯絡</h2>
-            <p>聯絡我們</p>
-          </div>
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact section-bg">
+            <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                    <h2>聯絡</h2>
+                    <p>聯絡我們</p>
+                </div>
 
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="info-box">
-                    <i class="bx bx-map"></i>
-                    <h3>Our Address</h3>
-                    <p>A108 Adam Street, New York, NY 535022</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-envelope"></i>
-                    <h3>Email Us</h3>
-                    <p>info@example.com<br />contact@example.com</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box mt-4">
-                    <i class="bx bx-phone-call"></i>
-                    <h3>Call Us</h3>
-                    <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-6">
-              <form
-                action="forms/contact.php"
-                method="post"
-                role="form"
-                class="php-email-form"
-              >
                 <div class="row">
-                  <div class="col-md-6 form-group">
-                    <input
-                      type="text"
-                      name="name"
-                      class="form-control"
-                      id="name"
-                      placeholder="Your Name"
-                      required
-                    />
-                  </div>
-                  <div class="col-md-6 form-group mt-3 mt-md-0">
-                    <input
-                      type="email"
-                      class="form-control"
-                      name="email"
-                      id="email"
-                      placeholder="Your Email"
-                      required
-                    />
-                  </div>
+                    <div class="col-lg-6">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="info-box">
+                                    <i class="bx bx-map"></i>
+                                    <h3>地址</h3>
+                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-envelope"></i>
+                                    <h3> 電郵</h3>
+                                    <p>Support@porthub.app</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="info-box mt-4">
+                                    <i class="bx bx-phone-call"></i>
+                                    <h3>電話</h3>
+                                    <p>+852 5588 8830</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+                            </div>
+                            <div class="form-group mt-3">
+                                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+                            </div>
+                            <div class="my-3">
+                                <div class="loading">Loading</div>
+                                <div class="error-message"></div>
+                                <div class="sent-message">
+                                    Your message has been sent. Thank you!
+                                </div>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit">發送訊息</button>
+                            </div>
+                        </form>
+                    </div>
                 </div>
-                <div class="form-group mt-3">
-                  <input
-                    type="text"
-                    class="form-control"
-                    name="subject"
-                    id="subject"
-                    placeholder="Subject"
-                    required
-                  />
-                </div>
-                <div class="form-group mt-3">
-                  <textarea
-                    class="form-control"
-                    name="message"
-                    rows="5"
-                    placeholder="Message"
-                    required
-                  ></textarea>
-                </div>
-                <div class="my-3">
-                  <div class="loading">Loading</div>
-                  <div class="error-message"></div>
-                  <div class="sent-message">
-                    Your message has been sent. Thank you!
-                  </div>
-                </div>
-                <div class="text-center">
-                  <button type="submit">Send Message</button>
-                </div>
-              </form>
             </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
+        </section>
+        <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
     <footer id="footer">
-      <div class="footer-clip-path"></div>
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-info">
-                <img
-                  src="./assets/img/main/logo-w.svg"
-                  class="footer-logo"
-                  alt=""
-                />
-                <h3>人工智能應用協會</h3>
-                <p class="pb-3">
-                  <em>推動AI發展，引领数字创新</em>
-                </p>
-                <p>
-                  A108 Adam Street <br />
-                  NY 535022, USA<br /><br />
-                  <strong>Phone:</strong> +1 5589 55488 55<br />
-                  <strong>Email:</strong> info@example.com<br />
-                </p>
-                <div class="social-links mt-3">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"
-                    ><i class="bx bxl-facebook"></i
-                  ></a>
-                  <a href="#" class="instagram"
-                    ><i class="bx bxl-instagram"></i
-                  ></a>
-                  <a href="#" class="google-plus"
-                    ><i class="bx bxl-skype"></i
-                  ></a>
-                  <a href="#" class="linkedin"
-                    ><i class="bx bxl-linkedin"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
+        <div class="footer-clip-path"></div>
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-info">
+                            <img src="./assets/img/main/logo-w.svg" class="footer-logo" alt="" />
+                            <h3>人工智能應用協會</h3>
+                            <p class="pb-3">
+                                <em>推動AI發展，引领数字创新</em>
+                            </p>
+                            <p>
 
-            <!--      <div class="col-lg-2 col-md-6 footer-links">
+                                <strong>Phone:</strong> +852 5588 8830<br />
+                                <strong>Email:</strong> Support@porthub.app<br />
+                            </p>
+                            <div class="social-links mt-3">
+                                <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i
+                  ></a>
+                                <a href="#" class="instagram"><i class="bx bxl-instagram"></i
+                  ></a>
+                                <a href="#" class="google-plus"><i class="bx bxl-skype"></i
+                  ></a>
+                                <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i
+                  ></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--      <div class="col-lg-2 col-md-6 footer-links">
               <h4>Useful Links</h4>
               <ul>
                 <li>
@@ -1106,24 +936,17 @@
                 />
               </form>
             </div> -->
-          </div>
+                </div>
+            </div>
         </div>
-      </div>
     </footer>
     <!-- End Footer -->
 
     <div id="preloader"></div>
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i
     ></a>
     <!-- bootstrap -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter.js"></script>
     <script src="assets/vendor/aos/aos.js"></script>
@@ -1146,5 +969,6 @@
         duration: 1,
       });
     </script>-->
-  </body>
+</body>
+
 </html>
