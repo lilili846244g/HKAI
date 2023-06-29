@@ -1566,7 +1566,7 @@ section {
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
     .pricing .box {
         max-width: 100%;
         margin: 0 auto 30px auto;
