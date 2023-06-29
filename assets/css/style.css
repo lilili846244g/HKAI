@@ -1571,6 +1571,9 @@ section {
         max-width: 100%;
         margin: 0 auto 30px auto;
     }
+    .team .member {
+        height: 350px;
+    }
 }
 
 
