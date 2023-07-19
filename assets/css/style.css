@@ -135,13 +135,14 @@ h6 {
 }
 
 #header .logo {
-    font-size: 26px;
     margin: 0;
     padding: 6px 0 0;
     line-height: 1;
     font-weight: 700;
     letter-spacing: 0.5px;
     text-transform: uppercase;
+    width: 100px;
+    height: 100px;
 }
 
 #header .logo a {
@@ -1813,6 +1814,8 @@ section {
 #footer .footer-logo {
     width: 50%;
     margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
 }
 
 #footer .footer-top .footer-info {
